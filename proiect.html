@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todos</title>
+    <link rel="stylesheet" href="proiect.css" /> 
+  </head> 
+  <body class="fundal"> 
+    <section>
+      <div class="titlu">
+          todos
+      </div>
+      <div class="todos">
+        <img src="keyboard_arrow_down-black.svg" alt="downArrow" class="arrow" id="arr">
+        <input id="mainBox"  placeholder="What needs to be done?" type="text">
+      </div>
+      <section>
+        <ul class="todoList" id="listOfTodos">
+          <!-- <li class="taskList" id="endMyPainPls">
+            <div class="showTodos">
+              <img src="panorama_fish_eye-24px.svg" alt="emptyBox" class="markCheck" id="unchecked" onclick="imageChange()">
+              <label>sunt foarte trist</label>
+              <button class="remove"></button>
+            </div>
+          </li> --> 
+        </ul>
+      </section>
+      <footer class="footer" id="foot">
+        <span class="counter">
+          <strong id="ctr">0</strong>
+           items left
+        </span>
+        <ul class="filterList">
+        <li>
+          <a id="all" href="#/">All</a>
+        </li>
+        <li>
+          <a id="active" href="#/active">Active</a>
+        </li>
+        <li>
+          <a id="completed" href="#/completed">Completed</a>
+        </li>
+        </ul>
+        <button class="clearButton">Clear completed</button>
+      </footer>
+      </section>
+    <script src="proiect.js"></script>
+  </body> 
+</html>
